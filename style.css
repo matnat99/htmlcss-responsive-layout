@@ -161,6 +161,31 @@ hr{
 
 
 
+/* FOOTER */
+footer{
+    background-color: #7C69A4;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 1.875rem 1.25rem;
+}
+
+.footer-first > span{
+    display: block;
+    margin-top: .625rem;
+    margin-bottom: 1.25rem;
+}
+
+.footer-first > span, .footer-second > a{
+    font-size: .875rem;
+}
+
+.footer-second > a{
+    color: #FFFFFF;
+    margin-left: 1.25rem;
+}
+
+
+
 /* RESPONSIVE */
 /* Tablet da 768px a infinito */
 @media screen and (min-width: 768px){
@@ -237,5 +262,18 @@ hr{
 
     .container-social button > span{
         display: inline-block;
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: .625rem 1.25rem;
+    }
+
+    .footer-first{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
     }
 }
