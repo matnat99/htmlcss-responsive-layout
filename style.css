@@ -27,14 +27,17 @@ h1{
 }
 
 h2{
+    font-size: 2rem;
+}
+
+h3{
     color: #4e3969;
     font-size: 1.75rem;
 }
 
-h3{
+h4{
     font-size: .9375rem;
 }
-
 
 
 
@@ -58,18 +61,18 @@ main{
 }
 
 /* SECTION RECIPE */
-.recipe h2{
+.recipe h3{
     margin-top: .75rem;
     margin-bottom: .75rem;
 }
 
-.recipe h3{
+.recipe h4{
     color: gray;
     font-weight: 300;
     text-transform: uppercase;
 }
 
-.recipe h2 > span{
+.recipe h3 > span{
     display: none;
 }
 
@@ -82,6 +85,10 @@ main{
     background-color: #fff;
     padding: 1.5625rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.recipe-container .recipe-img img{
+    width: 100%;
 }
 
 .recipe-details ul{
@@ -138,6 +145,22 @@ main{
     display: none;
 }
 
+/* SECTION PRESENTATION */
+hr{
+    width: 3.125rem;
+    border: 1px solid #F7972E;
+    margin: 1.25rem 0;
+}
+
+.img-tiramisù{
+    width: 25rem;
+    margin: 0 auto;
+    margin-bottom: .9375rem;
+    display: block;
+}
+
+
+
 /* RESPONSIVE */
 /* Tablet da 768px a infinito */
 @media screen and (min-width: 768px){
@@ -145,7 +168,7 @@ main{
         text-align: left;
     }
 
-    .recipe h2 > span{
+    .recipe h3 > span{
         display: inline;
     }
 
@@ -171,6 +194,12 @@ main{
 
     .advertising{
         display: block;
+        margin-bottom: 1.875rem;
+    }
+
+    .img-tiramisù{
+        float: left;
+        margin-right: .3125rem;
     }
 }
 
@@ -203,7 +232,7 @@ main{
     }
 
     .container-social > button{
-        padding: .625rem 1.875rem;
+        padding: .3125rem 1.5625rem;
     }
 
     .container-social button > span{
