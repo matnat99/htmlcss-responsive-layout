@@ -187,10 +187,34 @@ footer{
 
 
 /* RESPONSIVE */
+/* Mobile da 576px a infinito */
+@media screen and (min-width: 576px){
+    .container-social > button{
+        padding: .3125rem 2.5rem;
+        border-radius: 3.125rem;
+    }
+
+    .advertising{
+        display: block;
+        margin-bottom: 1.875rem;
+    }
+
+    .img-tiramisù{
+        float: left;
+        margin-right: .3125rem;
+    }
+}
+
+
+
 /* Tablet da 768px a infinito */
 @media screen and (min-width: 768px){
     header {
         text-align: left;
+    }
+
+    .recipe h3{
+        font-size: 2.5rem;
     }
 
     .recipe h3 > span{
@@ -228,8 +252,14 @@ footer{
     }
 }
 
+
+
 /* Tablet da 992px a infinito */
 @media  screen and (min-width: 992px){
+    .recipe h3{
+        font-size: 2.8125rem;
+    }
+
     .recipe-container{
         flex-direction: row;
     }
