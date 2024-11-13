@@ -5,12 +5,44 @@
     padding: 0;
 }
 
+
+
 /* GENERAL */
 body{
     font-family: "Montserrat", sans-serif;
+    background-color: #F6F5F3;
 }
+
+
 
 /* TYPOGRAPHY */
 h1{
     font-family: "Nerko One", cursive;
+    font-size: 2.8125rem;
+    text-shadow: 1px 1px 2px #333;
 }
+
+
+
+/* HEADER */
+header{
+    background-color: #fff;
+    text-align: center;
+    padding: .9375rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    color: #ff9614;
+}
+
+
+
+/* RESPONSIVE */
+/* Tablet da 768px a infinito */
+@media screen and (min-width: 768px){
+    header {
+        text-align: left;
+    }
+}
+
